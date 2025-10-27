@@ -22,7 +22,3 @@ variable "proxy_subnet_cidr" {
   description = "CIDR for the proxy subnet."
   type        = string
 }
-variable "zone" {
-  description = "The GCP zone."
-  type        = string
-}
