@@ -1,0 +1,6 @@
+argocd_chart_version   = "8.2.5"
+appsets_chart_version  = "0.1.4"
+gateways_chart_version = "0.0.3"
+gw_project_id          = "it-delivers-gke-gateways"
+gw_class               = "gke-l7-regional-external-managed"
+github_token_id        = "it-delivers-github-token"
