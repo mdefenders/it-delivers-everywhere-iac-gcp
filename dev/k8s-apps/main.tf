@@ -6,4 +6,10 @@ module "k8s-apps" {
   gw_class               = var.gw_class
   github_token           = var.github_token
   github_token_id        = var.github_token_id
+  appset_name            = var.appset_name
+  app_chart_name         = var.app_chart_name
+  app_chart_repo         = var.app_chart_repo
+  app_chart_version      = var.app_chart_version
+  github_org             = var.github_org
+  deploy_appsets         = var.deploy_appsets
 }
