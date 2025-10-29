@@ -1,5 +1,5 @@
 module "k8s-apps" {
-  source                 = "../../modules/k8s-apps"
+  source                 = "git::https://github.com/mdefenders/terraform-gcp-k8s-apps.git?ref=dev"
   appsets_chart_version  = var.appsets_chart_version
   gateways_chart_version = var.gateways_chart_version
   gw_project_id          = var.gw_project_id
